@@ -1,0 +1,28 @@
+{
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+    // Remove .fvm files from search
+    "search.exclude": {
+        "**/.fvm": true
+    },
+    // Remove from file watching
+    "files.watcherExclude": {
+        "**/.fvm": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        // hide freezed / Generated code
+        "**/*.freezed.dart": true,
+        "**/*.g.dart": true,
+    },
+    "files.associations": {
+        "**/.azure/*.yml": "azure-pipelines"
+    },
+    "[dart]": {
+        "editor.defaultFormatter": "Dart-Code.dart-code",
+    },
+    "dartImport.fixOnSave": true,
+}
